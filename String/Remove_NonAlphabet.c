@@ -1,5 +1,5 @@
 #include<stdio.h>
-char* RemoveAlphabet(char* s){
+char* RemoveNonAlphabet(char* s){
     int i, j;
     for(i=0; s[i]; i++){
         if(!((s[i] >= 'a' && s[i] <= 'z') || (s[i] >= 'A' && s[i] <= 'Z'))){
@@ -16,7 +16,8 @@ int main(){
     printf("ENTER THE STRING : \n");
     scanf(" %[^\n]",s);
 
-    RemoveAlphabet(s);
+    RemoveNonAlphabet(s);
     printf("%s",s);
 
 }
+
