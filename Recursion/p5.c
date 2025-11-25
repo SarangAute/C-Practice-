@@ -1,3 +1,5 @@
+/*FACTORIAL*/
+
 #include<stdio.h>
 int fact(int);
 
@@ -15,4 +17,5 @@ int fact(int n){
     return 1;
     else
     return n*fact(n-1);
+
 }
