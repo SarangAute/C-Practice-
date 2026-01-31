@@ -5,7 +5,7 @@ int UD_atoi(char* s){
 		i=1;
 	for(i;s[i];i++){
 		if(s[i]>='0' && s[i]<='9')
-			sum=sum*10+(s[i]-48);
+			sum=sum*10+(s[i]-'0');
 	}
 	if(s[0]=='-')
 		return -sum;
