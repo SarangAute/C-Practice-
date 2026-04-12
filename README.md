@@ -1,1 +1,1 @@
-
+This repository contains C programs demonstrating fundamental concepts such as data structures, algorithms, and memory management. It is designed for learning and practice, with well-structured code and examples that help build a strong foundation in C programming.
