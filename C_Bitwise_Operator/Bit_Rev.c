@@ -15,6 +15,7 @@ void rev(unsigned int n){
 		rev <<= 1;
 		rev |= (n&1);
 		n >>= 1;
+		//rev = rev | ((n>>i)&1) << (31-i);
 	}
 	printf("REVERSED BITS: \n");
 	bits(rev);
