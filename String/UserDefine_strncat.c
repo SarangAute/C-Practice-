@@ -4,7 +4,7 @@ char* UDstrcat(char* dest, const char* scr, int n){
 	int i, s;
 	for(s=0; dest[s]; s++);
 	for(i=0; (dest[s+i] = scr[i]) && i<n; i++);
-		dest[s+i] = '\0';
+	dest[s+i] = '\0';
 	
 	return dest;
 }
